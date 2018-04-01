@@ -1,6 +1,7 @@
 def turn_count(board)
  counter = 0 
- board.each 
+ board.each do |space|
+   puts space
  end 
 
 # def current_player(board)
