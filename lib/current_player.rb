@@ -3,6 +3,7 @@ def turn_count(board)
  board.each do |space|
    puts space
  end 
+ end 
 
 # def current_player(board)
 # if  turn_count(board) % 2 == 0
